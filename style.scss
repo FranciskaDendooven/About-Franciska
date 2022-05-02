@@ -19,21 +19,40 @@ font-size: 100%;
 /*#e27d60 #e8a87c #c38d9e #41b3a3 plus een meer lichtblauw kleurtje (make it pop!)*/
 
 Body{
-    display: flex;
-    flex-direction: column;
+    display: block;
+    flex-direction: row;
     margin:20px;
     background-color:rgb(37, 194, 178);
 }
 
-header, .navbar, .footer{
-    display:block;
-    }
-
 .bodycontent{
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
+}
+
+.navbar{
+    padding: 5px 20px 20px 15px;
+}
+
+.bodycontent{
+    padding: 20px 120px 20px 20px;
+}
+
+.aside1, .aside2{
+    padding: 20px 100px 20px 5px;
+}
+
+.footer{
+    font-size: 14px;
+    text-indent: 170px;
+    color: rgb(244, 95, 100);
+    padding-bottom: 5px;
+}
+
+header, .navbar, .article1, .article2, .aside1, .aside2 .footer{
+    display: block;
 }
 
 h1{
