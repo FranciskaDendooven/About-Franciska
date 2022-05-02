@@ -1,1 +1,41 @@
-/*# sourceMappingURL=style.css.map */
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  #container {
+    font-size: 75%;
+  }
+}
+@media (min-width: 480px) and (max-width: 1024px) {
+  #container {
+    font-size: 88%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1300px) {
+  #container {
+    font-size: 100%;
+  }
+}
+/*#e27d60 #e8a87c #c38d9e #41b3a3 plus een meer lichtblauw kleurtje (make it pop!)*/
+Body {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: rgb(37, 194, 178);
+}
+
+header, .navbar, .footer {
+  display: block;
+}
+
+.bodycontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+h1 {
+  color: white;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #08685b;
+}/*# sourceMappingURL=style.css.map */
